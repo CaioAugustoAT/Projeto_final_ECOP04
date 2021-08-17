@@ -1,0 +1,65 @@
+
+/*
+void selecionaSetpoint(){
+    kpInit();
+    
+    unsigned char i; 
+    char comando = 0;
+    unsigned int tecla = 16;
+    unsigned char coluna = 0, linha = 0;
+    lcd_init();
+    kpInit();
+    
+    lcd_cmd(L_ON);
+    lcd_cmd(L_CLR);
+    for (;;) {
+        kpDebounce();
+        if (kpRead() != tecla) {
+            tecla = kpRead();
+            if (bitTst(tecla, 0)) {                
+                lcd_cmd(L_CLR);//* limpeza de tela
+            }
+            if (bitTst(tecla, 4)) {                
+                lcd_str("0");
+            }
+            if (bitTst(tecla, 3)) {                
+                 lcd_str("1");
+            }
+            if (bitTst(tecla, 7)) {                
+                 lcd_str("2");
+            }
+            if (bitTst(tecla, 11)) {                
+                 lcd_str("3");
+            }
+            if (bitTst(tecla, 2)) {                
+                 lcd_str("4");
+            }
+            if (bitTst(tecla, 6)) {                
+                 lcd_str("5");
+            }
+            if (bitTst(tecla, 10)) {                
+                 lcd_str("6");
+            }
+            if (bitTst(tecla, 1)) {                
+                 lcd_str("7");
+            }
+            if (bitTst(tecla, 5)) {                
+                 lcd_str("8");
+            }
+            if (bitTst(tecla, 9)) {                
+                 lcd_str("9");
+            }
+            if (bitTst(tecla, 8)) {                
+                 lcd_str("#");
+            }            
+            else if (bitTst(tecla, 7)) {
+               
+            }
+            
+           
+            lcd_cmd(comando);
+        }        
+    }
+}
+ */
+
